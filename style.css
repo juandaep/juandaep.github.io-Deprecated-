@@ -194,6 +194,27 @@ button:active {
   .resume-section {
     padding-top: 3rem !important;
     padding-bottom: 10rem !important;
+    height: 100vh;
+  }
+
+  .skill-section {
+    padding-top: 3rem !important;
+    padding-bottom: 10rem !important;
+  }
+
+  .portfolio-section {
+    padding-top: 3rem !important;
+    padding-bottom: 10rem !important;
+  }
+
+  .certificate-section {
+    padding-top: 3rem !important;
+    padding-bottom: 10rem !important;
+  }
+
+  .contact-section {
+    padding-top: 3rem !important;
+    padding-bottom: 10rem !important;
   }
 
   #sideNav {
@@ -231,5 +252,9 @@ button:active {
   .mobile-name,
   .mobile-profession {
     display: none;
+  }
+  
+  .text-item{
+    margin-top: 15%;
   }
 }
