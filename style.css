@@ -63,7 +63,8 @@ a:focus {
 #sideNav .navbar-nav .nav-item a:hover,
 .nav-link a:hover,
 a {
-  color: #add8e6;
+  /* color: #add8e6; */
+  color: #1874cd;
   transition: all 0.2s ease-in-out;
 }
 
