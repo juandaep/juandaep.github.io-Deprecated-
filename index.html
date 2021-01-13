@@ -72,6 +72,9 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolios"
               >Portfolios</a>
           </li>
@@ -196,11 +199,31 @@
             </div>
 
           </div>
-         </section>
+      </section>
+
+      <section class="container p-3 p-lg-5" id="skills">
+        <h2 class="mb-5">&lt; Skills &gt;</h2>
+          <div class="my-auto">
+            <section class="skill-logos slider">
+              <div class="slide"><img src="logo/html.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/css.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/javascript.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/bootstrap.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/androidstudio.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/kotlin.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/java.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/visualstudiocode.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/wordpress.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/xd.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/cubase.jpg" alt="logo"></div>
+              <div class="slide"><img src="logo/protools.jpg" alt="logo"></div>
+          </div>
+      </section>
+
 
       <!--      Portfolio     -->
       <section class="portfolio-section p-3 p-lg-5" id="portfolios" data-aos="fade-up">
-        <h2 class="mb-4 mt-5 pt-5">&lt; Portfolios &gt;</h2>
+        <h2 class="mb-4">&lt; Portfolios &gt;</h2>
 
         <div class="my-auto">
           <div class="row">
@@ -477,6 +500,8 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
     <!-- Custom scripts -->
     <script src="js/resume.min.js"></script>
@@ -489,6 +514,31 @@
       integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
       crossorigin="anonymous">
     </script>
+
+<script>
+  $(document).ready(function(){
+      $('.skill-logos').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 500,
+          arrows: false,
+          dots: false,
+          pauseOnHover:false,
+          responsive: [{
+              breakpoint: 768,
+              setting: {
+                  slidesToShow:4
+              }
+          }, {
+              breakpoint: 520,
+              setting: {
+                  slidesToShow: 3
+              }
+          }]
+      });
+  });
+</script>
 
   </body>
 </html>
