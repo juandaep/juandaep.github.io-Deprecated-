@@ -261,8 +261,8 @@ button:active {
 }
 
 .container{
-  padding-top: 3rem !important;
-  padding-bottom: 10rem !important;
+  padding-top: 10rem !important;
+  padding-bottom: 30rem !important;
   height: 50vh;
 }
 
